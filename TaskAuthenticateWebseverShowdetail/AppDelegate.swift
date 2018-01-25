@@ -15,7 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let mainVC = storyBoard.instantiateViewController(withIdentifier: "Login") as! LoginViewController  ///  - Note: LoginViewController is the root of UINavigationController.
+        if let navigation = self.window?.rootViewController as? UINavigationController {
+            navigation.pushViewController(mainVC, animated: false)
+        }
         return true
     }
 

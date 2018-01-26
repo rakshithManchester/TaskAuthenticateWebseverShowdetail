@@ -376,11 +376,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TaskAuthenticateWebseverShowdetail/Controllers/LoginViewController.swift"
-            timestampString = "538653950.19399"
+            timestampString = "538668109.870981"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
@@ -396,23 +396,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TaskAuthenticateWebseverShowdetail/Helper/ImageZoomHelper.swift"
-            timestampString = "538646795.850266"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "schedulingzoomInZoomOut(time:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TaskAuthenticateWebseverShowdetail/Helper/ImageZoomHelper.swift"
-            timestampString = "538646795.850672"
+            timestampString = "538667952.2399549"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "14"
@@ -428,11 +412,11 @@
                   moduleName = "TaskAuthenticateWebseverShowdetail"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/Helper/ImageZoomHelper.swift"
-                  timestampString = "538646594.919215"
+                  timestampString = "538667952.4318219"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
                   offsetFromSymbolStart = "19">
                </Location>
                <Location
@@ -443,11 +427,11 @@
                   moduleName = "TaskAuthenticateWebseverShowdetail"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/Helper/ImageZoomHelper.swift"
-                  timestampString = "538646594.921306"
+                  timestampString = "538667952.434711"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
                   offsetFromSymbolStart = "15">
                </Location>
             </Locations>

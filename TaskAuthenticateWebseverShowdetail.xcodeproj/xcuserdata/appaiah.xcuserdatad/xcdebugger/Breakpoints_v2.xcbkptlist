@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TaskAuthenticateWebseverShowdetail/LoginViewController.swift"
-            timestampString = "538600605.1755511"
+            timestampString = "538638665.559245"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "loginButtonTap(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -22,15 +22,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TaskAuthenticateWebseverShowdetail/LoginViewController.swift"
-            timestampString = "538600605.176211"
+            timestampString = "538638665.5600671"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "loginButtonTap(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -56,11 +56,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TaskAuthenticateWebseverShowdetail/DetailViewController.swift"
-            timestampString = "538600605.176657"
+            timestampString = "538610711.679684"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
@@ -72,16 +72,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TaskAuthenticateWebseverShowdetail/DetailViewController.swift"
-            timestampString = "538600605.176764"
+            timestampString = "538610711.679781"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "23"
             endingLineNumber = "23"
-            landmarkName = "viewDidLoad()"
+            landmarkName = "viewWillAppear(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -92,12 +92,314 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TaskAuthenticateWebseverShowdetail/CollectionViewController.swift"
-            timestampString = "538600605.1768709"
+            timestampString = "538610711.679893"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskAuthenticateWebseverShowdetail/LoginViewController.swift"
+            timestampString = "538638665.560455"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "loginButtonTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskAuthenticateWebseverShowdetail/AppDelegate.swift"
+            timestampString = "538610711.68007"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskAuthenticateWebseverShowdetail/CollectionViewController.swift"
+            timestampString = "538610711.680132"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaskAuthenticateWebseverShowdetail.CollectionViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TaskAuthenticateWebseverShowdetail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/CollectionViewController.swift"
+                  timestampString = "538608483.9985631"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "75">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in TaskAuthenticateWebseverShowdetail.CollectionViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TaskAuthenticateWebseverShowdetail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/CollectionViewController.swift"
+                  timestampString = "538608484.001163"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "14">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskAuthenticateWebseverShowdetail/CollectionViewController.swift"
+            timestampString = "538610711.680205"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "getData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaskAuthenticateWebseverShowdetail.CollectionViewController.getData() -&gt; ()"
+                  moduleName = "TaskAuthenticateWebseverShowdetail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/CollectionViewController.swift"
+                  timestampString = "538608484.00692"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "409">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__ObjC.URLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in TaskAuthenticateWebseverShowdetail.CollectionViewController.getData() -&gt; ()"
+                  moduleName = "TaskAuthenticateWebseverShowdetail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/CollectionViewController.swift"
+                  timestampString = "538608484.0097179"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskAuthenticateWebseverShowdetail/CollectionViewController.swift"
+            timestampString = "538610711.6802779"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "getData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskAuthenticateWebseverShowdetail/CollectionViewController.swift"
+            timestampString = "538610711.680352"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "getData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskAuthenticateWebseverShowdetail/CollectionViewController.swift"
+            timestampString = "538610711.6804219"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskAuthenticateWebseverShowdetail/CollectionViewController.swift"
+            timestampString = "538610711.680491"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskAuthenticateWebseverShowdetail/DetailViewController.swift"
+            timestampString = "538610711.680559"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "DetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaskAuthenticateWebseverShowdetail.DetailViewController.selectedRow.getter : Swift.Int"
+                  moduleName = "TaskAuthenticateWebseverShowdetail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/DetailViewController.swift"
+                  timestampString = "538611883.1025701"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "97">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaskAuthenticateWebseverShowdetail.DetailViewController.selectedRow.setter : Swift.Int"
+                  moduleName = "TaskAuthenticateWebseverShowdetail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/DetailViewController.swift"
+                  timestampString = "538611883.105803"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "98">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaskAuthenticateWebseverShowdetail.DetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; TaskAuthenticateWebseverShowdetail.DetailViewController"
+                  moduleName = "TaskAuthenticateWebseverShowdetail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/DetailViewController.swift"
+                  timestampString = "538611883.109037"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "203">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaskAuthenticateWebseverShowdetail.DetailViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;TaskAuthenticateWebseverShowdetail.DetailViewController&gt;"
+                  moduleName = "TaskAuthenticateWebseverShowdetail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/DetailViewController.swift"
+                  timestampString = "538611883.112325"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "153">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskAuthenticateWebseverShowdetail/DetailViewController.swift"
+            timestampString = "538610711.68062"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskAuthenticateWebseverShowdetail/CollectionViewController.swift"
+            timestampString = "538610711.680684"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -108,12 +410,60 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TaskAuthenticateWebseverShowdetail/LoginViewController.swift"
-            timestampString = "538600605.176998"
+            timestampString = "538638665.5609879"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "loginButtonTap(_:)"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "zoomInZoomOut()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaskAuthenticateWebseverShowdetail.LoginViewController.zoomInZoomOut() -&gt; ()"
+                  moduleName = "TaskAuthenticateWebseverShowdetail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/LoginViewController.swift"
+                  timestampString = "538611883.135462"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in TaskAuthenticateWebseverShowdetail.LoginViewController.zoomInZoomOut() -&gt; ()"
+                  moduleName = "TaskAuthenticateWebseverShowdetail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/LoginViewController.swift"
+                  timestampString = "538611883.138755"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskAuthenticateWebseverShowdetail/LoginViewController.swift"
+            timestampString = "538638665.561299"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "schedulingzoomInZoomOut()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

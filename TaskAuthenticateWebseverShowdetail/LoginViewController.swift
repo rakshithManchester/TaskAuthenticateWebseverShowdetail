@@ -14,13 +14,17 @@ import UIKit
 /// - Parameter userId: Outlet reference for userName textfield, String type.
 /// - Parameter password: Outlet reference for password textfield, String type.
 class LoginViewController: UIViewController {
+    var timer = Timer()
     let userDefault = UserDefaults.standard
     @IBOutlet weak var userId: UITextField!
     @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var backGroundImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.settingUserDetails()
+        self.zoomInZoomOut()
+        self.schedulingzoomInZoomOut()
     }
     override func viewDidDisappear(_ animated: Bool) {
         password.text =  nil
@@ -51,5 +55,23 @@ class LoginViewController: UIViewController {
     func settingUserDetails() {
         userDefault.set(MyClassConstants.mailId, forKey: MyClassConstants.user)
         userDefault.set(MyClassConstants.mailPassword, forKey: MyClassConstants.password)
+    }
+    /// Animates the background image in Login Screen.
+    @objc func zoomInZoomOut() {
+        UIView.animate(withDuration: 15.0, animations: {() -> Void in
+            self.backGroundImage?.transform = CGAffineTransform(scaleX: 1.2, y: 1.2)
+        }, completion: {(_ finished: Bool) -> Void in
+            UIView.animate(withDuration: 20.0, animations: {() -> Void in
+                self.backGroundImage?.transform = CGAffineTransform(scaleX: 1, y: 1)
+            })
+        })
+    }
+    /// Scheduling of animatation of the background image.
+    private func schedulingzoomInZoomOut() {
+        timer = Timer.scheduledTimer(timeInterval: 35,
+                                     target: self,
+                                     selector: #selector(self.zoomInZoomOut),
+                                     userInfo: nil,
+                                     repeats: true)
     }
 }

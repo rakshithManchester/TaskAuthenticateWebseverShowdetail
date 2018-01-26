@@ -12,4 +12,5 @@ import UIKit
 class CellCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var artistImage: UIImageView!
     @IBOutlet weak var artistName: UILabel!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
 }

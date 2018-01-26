@@ -30,9 +30,11 @@ class CollectionViewController: UIViewController,UICollectionViewDelegate,UIColl
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! CellCollectionViewCell
+        cell.activityIndicator.startAnimating()
         let url = URL(string: arrayOfActors[indexPath.row].image)
-        let data = try? Data(contentsOf: url!)
-        cell.artistImage.image = UIImage(data: data!)
+        guard let data = try? Data(contentsOf: url!) else { return cell }
+        cell.activityIndicator.stopAnimating()
+        cell.artistImage.image = UIImage(data: data)
         cell.artistName.text = arrayOfActors[indexPath.row].name
         return cell
     }

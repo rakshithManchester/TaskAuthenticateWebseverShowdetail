@@ -10,14 +10,17 @@ import UIKit
 
 /// CollectionViewController : Artists collections screen.
 class CollectionViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
+    
+    @IBOutlet weak var collectionView: UICollectionView!
+    
     final let url = "http://microblogging.wingnity.com/JSONParsingTutorial/jsonActors"  ///  - Note: web server url used to get artists details.
-    @IBOutlet weak var collectionVw: UICollectionView!
+    
     var arrayOfActors = [ActorDetails]()
     var selectedRow = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      ///  - Note: loading data in background thread.
+        ///  - Note: loading data in background thread.
         DispatchQueue.global(qos: .userInteractive).async {
             self.getData()
         }
@@ -63,21 +66,23 @@ class CollectionViewController: UIViewController,UICollectionViewDelegate,UIColl
         layout.itemSize = CGSize(width: width / 2.1, height: width / 2)
         layout.minimumInteritemSpacing = 1
         layout.minimumLineSpacing = 1
-        collectionVw!.collectionViewLayout = layout
+        collectionView!.collectionViewLayout = layout
     }
 }
 
 extension CollectionViewController {
     /// Actor details are fetched from here, URLSession class is used for downloading content.
     func getData() {
-        guard let url = URL(string: url) else { return }
+        guard let url = URL(string: url) else {
+            return
+        }
         var requestUrl = URLRequest(url: url)
         requestUrl.httpMethod = MyClassConstants.getMethod
         let session = URLSession.shared
         session.dataTask(with: requestUrl) { (data, response, error) in
             if let error = error {
                 print("\(error)")
-            }else {
+            } else {
                 if let data = data {
                     do {
                         let json =  try JSONSerialization.jsonObject(with: data, options: []) as? NSDictionary
@@ -93,7 +98,7 @@ extension CollectionViewController {
                                     self.arrayOfActors.append(actorDetails)
                                 }
                                 DispatchQueue.main.async {          ///  - Note: updating UI in main thread.
-                                    self.collectionVw.reloadData()
+                                    self.collectionView.reloadData()
                                 }
                             }
                         }

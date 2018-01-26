@@ -307,68 +307,6 @@
             endingLineNumber = "14"
             landmarkName = "DetailViewController"
             landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TaskAuthenticateWebseverShowdetail.DetailViewController.selectedRow.getter : Swift.Int"
-                  moduleName = "TaskAuthenticateWebseverShowdetail"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/DetailViewController.swift"
-                  timestampString = "538611883.1025701"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "97">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TaskAuthenticateWebseverShowdetail.DetailViewController.selectedRow.setter : Swift.Int"
-                  moduleName = "TaskAuthenticateWebseverShowdetail"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/DetailViewController.swift"
-                  timestampString = "538611883.105803"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "98">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TaskAuthenticateWebseverShowdetail.DetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; TaskAuthenticateWebseverShowdetail.DetailViewController"
-                  moduleName = "TaskAuthenticateWebseverShowdetail"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/DetailViewController.swift"
-                  timestampString = "538611883.109037"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "203">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TaskAuthenticateWebseverShowdetail.DetailViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;TaskAuthenticateWebseverShowdetail.DetailViewController&gt;"
-                  moduleName = "TaskAuthenticateWebseverShowdetail"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/DetailViewController.swift"
-                  timestampString = "538611883.112325"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "153">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -417,38 +355,6 @@
             endingLineNumber = "61"
             landmarkName = "zoomInZoomOut()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TaskAuthenticateWebseverShowdetail.LoginViewController.zoomInZoomOut() -&gt; ()"
-                  moduleName = "TaskAuthenticateWebseverShowdetail"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/LoginViewController.swift"
-                  timestampString = "538611883.135462"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "59"
-                  endingLineNumber = "59"
-                  offsetFromSymbolStart = "17">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in TaskAuthenticateWebseverShowdetail.LoginViewController.zoomInZoomOut() -&gt; ()"
-                  moduleName = "TaskAuthenticateWebseverShowdetail"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/LoginViewController.swift"
-                  timestampString = "538611883.138755"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "60"
-                  endingLineNumber = "60"
-                  offsetFromSymbolStart = "24">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -465,6 +371,86 @@
             endingLineNumber = "71"
             landmarkName = "schedulingzoomInZoomOut()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskAuthenticateWebseverShowdetail/Controllers/LoginViewController.swift"
+            timestampString = "538653950.19399"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "loginButtonTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskAuthenticateWebseverShowdetail/Helper/ImageZoomHelper.swift"
+            timestampString = "538646795.850266"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "schedulingzoomInZoomOut(time:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskAuthenticateWebseverShowdetail/Helper/ImageZoomHelper.swift"
+            timestampString = "538646795.850672"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "zoomInZoomOut(image:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static TaskAuthenticateWebseverShowdetail.ImageZoomHelper.zoomInZoomOut(image: __ObjC.UIImageView) -&gt; ()"
+                  moduleName = "TaskAuthenticateWebseverShowdetail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/Helper/ImageZoomHelper.swift"
+                  timestampString = "538646594.919215"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in static TaskAuthenticateWebseverShowdetail.ImageZoomHelper.zoomInZoomOut(image: __ObjC.UIImageView) -&gt; ()"
+                  moduleName = "TaskAuthenticateWebseverShowdetail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/appaiah/Desktop/TaskAuthenticateWebseverShowdetail/TaskAuthenticateWebseverShowdetail/Helper/ImageZoomHelper.swift"
+                  timestampString = "538646594.921306"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

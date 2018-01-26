@@ -10,16 +10,18 @@ import UIKit
 
 /// DetailViewController : Displays artist's data in detail.
 class DetailViewController: UIViewController {
-    var arrayOfActors = [ActorDetails]()
-    var selectedRow : Int = 0
     @IBOutlet weak var imageVw: UIImageView!
     @IBOutlet weak var actorName: UILabel!
     @IBOutlet weak var actorCountry: UILabel!
     @IBOutlet weak var actorDescription: UILabel!
     
+    var arrayOfActors = [ActorDetails]()
+    var selectedRow : Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
     override func viewWillAppear(_ animated: Bool) {
         if let url = URL(string: arrayOfActors[selectedRow].image) {
             if let data = try? Data(contentsOf: url) {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C12835F201B140500B6D846 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C12835E201B140500B6D846 /* AlertHelper.swift */; };
 		9C2346692018AC1A00B0D94C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2346682018AC1A00B0D94C /* AppDelegate.swift */; };
 		9C23466E2018AC1A00B0D94C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C23466C2018AC1A00B0D94C /* Main.storyboard */; };
 		9C2346702018AC1A00B0D94C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C23466F2018AC1A00B0D94C /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C12835E201B140500B6D846 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
 		9C2346652018AC1A00B0D94C /* TaskAuthenticateWebseverShowdetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskAuthenticateWebseverShowdetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C2346682018AC1A00B0D94C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C23466D2018AC1A00B0D94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +68,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C128359201B036B00B6D846 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C23CBB62019FEBB00E35544 /* CellCollectionViewCell.swift */,
+				9C2346882018ACDF00B0D94C /* LoginViewController.swift */,
+				9C23468A2018ACF300B0D94C /* CollectionViewController.swift */,
+				9C23468C2018ACFF00B0D94C /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9C12835B201B041700B6D846 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9C23CBBA201A353C00E35544 /* MyClassConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9C12835C201B043300B6D846 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C23CBB42019F81500E35544 /* Actors.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C12835D201B134300B6D846 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9C12835E201B140500B6D846 /* AlertHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		9C23465C2018AC1A00B0D94C = {
 			isa = PBXGroup;
 			children = (
@@ -87,17 +124,15 @@
 		9C2346672018AC1A00B0D94C /* TaskAuthenticateWebseverShowdetail */ = {
 			isa = PBXGroup;
 			children = (
+				9C12835D201B134300B6D846 /* Helper */,
+				9C12835C201B043300B6D846 /* Model */,
+				9C12835B201B041700B6D846 /* Constants */,
+				9C128359201B036B00B6D846 /* Controllers */,
 				9C2346682018AC1A00B0D94C /* AppDelegate.swift */,
 				9C23466C2018AC1A00B0D94C /* Main.storyboard */,
 				9C23466F2018AC1A00B0D94C /* Assets.xcassets */,
 				9C2346712018AC1A00B0D94C /* LaunchScreen.storyboard */,
 				9C2346742018AC1A00B0D94C /* Info.plist */,
-				9C2346882018ACDF00B0D94C /* LoginViewController.swift */,
-				9C23468A2018ACF300B0D94C /* CollectionViewController.swift */,
-				9C23468C2018ACFF00B0D94C /* DetailViewController.swift */,
-				9C23CBB42019F81500E35544 /* Actors.swift */,
-				9C23CBB62019FEBB00E35544 /* CellCollectionViewCell.swift */,
-				9C23CBBA201A353C00E35544 /* MyClassConstants.swift */,
 			);
 			path = TaskAuthenticateWebseverShowdetail;
 			sourceTree = "<group>";
@@ -218,6 +253,7 @@
 				9C23CBBB201A353C00E35544 /* MyClassConstants.swift in Sources */,
 				9C23468B2018ACF300B0D94C /* CollectionViewController.swift in Sources */,
 				9C23CBB52019F81500E35544 /* Actors.swift in Sources */,
+				9C12835F201B140500B6D846 /* AlertHelper.swift in Sources */,
 				9C2346892018ACDF00B0D94C /* LoginViewController.swift in Sources */,
 				9C2346692018AC1A00B0D94C /* AppDelegate.swift in Sources */,
 				9C23468D2018ACFF00B0D94C /* DetailViewController.swift in Sources */,

@@ -6,7 +6,6 @@
 //  Copyright © 2018 Rakshith Appaiah. All rights reserved.
 //
 
-import Foundation
 
 /// MyClassConstants : class constants are stored here.
 struct MyClassConstants {
